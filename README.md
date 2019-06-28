@@ -44,3 +44,9 @@ Navegação:
     Na primeira pagina (rota "/" ou Botão "Inicio") mostra as turmas e series que foram cadastradas.
     Na segunda pagina (rota "/comentar" ou Botão "Reportar") é onde o docente pode fazer o reporte escolhendo a turma, digitando o nome do discente, seu nome, sua diciplina e o comentario.
     Na terceira pagina (rota "/listar" ou Botão "Comentários") é onde os docentes podem observar os comentarios dos seus colegas. Tambem poderá observar qual aluno está dando mais trabalho para os outros docentes. 
+    
+    
+    
+Equipe
+
+    José William Padilha de Lima da Silva
