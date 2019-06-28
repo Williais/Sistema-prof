@@ -6,7 +6,7 @@
 {% block page_content %}
 <div class="page-header">
     {% for coment in coments %}
-    <div class="card">
+    <div class="card" id="coisa">
         <div class="card-header">
             De: {{ coment.docente }} - {{ coment.disciplina }}
         </div>
@@ -17,4 +17,15 @@
     </div>
     {% endfor %}
 </div>
+
+<style type="text/css">
+    #coisa{
+        width: auto;
+        height: auto;
+        background: #FFFFFF;
+        color: black;
+        padding: 20px;
+        border: 5px solid #CCC;
+    }
+</style>
 {% endblock %}
