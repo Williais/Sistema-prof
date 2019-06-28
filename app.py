@@ -104,3 +104,7 @@ def comentario ():
         print("Erro")
     return render_template('comentar.html', classes=Classe.query.all(), form=form)
     
+    
+@app.route("/listar", methods = ['GET', 'POST'])
+def listar():
+    return render_template('list.html', coments=Comentario.query.all())
