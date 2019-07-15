@@ -9,10 +9,8 @@ Instruções para execução
 
     $ git clone https://github.com/Williais/Sistema-prof.git
     $ cd Sistema-prof
-    # pesquisa onde está o python3
-    $ which pyhton3
     # cria ambiente virtual do python
-    $ virtualenv --python="Substitua pela saída do which(sem aspas)" env
+    $ virtualenv --python=`which pyhton3` env
     # para ativar o ambiente virtual
     $ . env/bin/activate
     # instala essas bibliotecas no ambiente virtal ativado
@@ -25,7 +23,7 @@ Configurar as variáveis de ambiente para execução do flask:
     
 Agora vamos adicionar valores ao banco de dados, ativa o python em modo interativo, com o flask ativado.
 
-    $ Flask shell
+    $ flask shell
 
 Depois, insere os seguintes valores:
     
