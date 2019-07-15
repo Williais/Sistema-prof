@@ -29,11 +29,11 @@ Agora vamos adicionar valores ao banco de dados, ativa o python em modo interati
 
 Depois, insere os seguintes valores:
     
-    $ from app import db, Classe, Comentario
-    $ db.drop_all()
-    $ db.create_all()
-    $ Classe.inserir_classes()
-    $ exit()
+    from app import db, Classe, Comentario
+    db.drop_all()
+    db.create_all()
+    Classe.inserir_classes()
+    exit()
 
 E executar a aplicação
 
